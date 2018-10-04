@@ -479,6 +479,11 @@ svg.github {
   max-width: 100%;
 }
 
+.post-content img.inline-image {
+  min-width: inherit;
+  max-width: inherit;
+}
+
 .post-content h1 {
   color: rgba(0, 0, 0, .1);
   text-align: center;
@@ -498,6 +503,22 @@ svg.github {
   line-height: 56px;
   margin-left: 0;
   text-align: justify;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+
+}
+
+.post-content .manifesto.fadeIn{
+  animation-name: fadeIn;
+  animation-duration: 3s;
 }
 
 @media (min-width: 700px) {
@@ -594,21 +615,88 @@ svg.github {
   }
 }
 
+/* RESUME
+    ========================================================================= */
+
+.resume-content h2 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.resume-content .inline-image {
+  width: 110px;
+  margin-right: 20px;
+}
+
+/* PORTFOLIO
+  ============================================================================*/
+.portfolio-content .carousel {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.portfolio-content .carousel img {
+  /*min-width: inherit;*/
+  /*max-width: inherit;*/
+}
+
+.carousel .carousel-item {
+  width: 30%;
+  margin: 10px 0;
+}
+
+.portfolio-content .carousel a {
+  border: none;
+  display: inline !important;
+  transition: none;
+  text-decoration: none;
+}
+
+.sl-overlay{
+  background: #000000 !important;
+}
+
+.sl-wrapper .sl-navigation button{
+  color: #FFFFFF !important;
+}
+
+/** WISDOM BTN*/
+.wisdom-btn{
+  cursor: pointer;
+  background: #000000;
+  color: #FFFFFF;
+  border: none;
+  padding: 20px;
+  font-size: 20px;
+  font-family: 'Poppins Light', sans-serif;
+}
+
+
+
 /* Footer
    ========================================================================== */
 .footer-content {
   font-family: 'Poppins Light', sans-serif;
-  background: #002750;
+  background: #000000;
   padding: 25px 0;
+  z-index: 1;
+  display: block;
+  position: absolute;
+  width: 100%;
+  opacity: 0.5;
 }
 
-.footer-content p {
+.footer-content small {
   margin: 0;
   color: #bfbfbf;
 }
 
-
-.footer-content a:link,.footer-content a:visited{
+.footer-content a:link, .footer-content a:visited {
   color: #FFFFFF !important;
 }
 

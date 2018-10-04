@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "zenorocha.com",
+  "name": "jonatascastro.me",
   "version": "4.0.0",
   "scripts": {
     "start": "node metalsmith build",

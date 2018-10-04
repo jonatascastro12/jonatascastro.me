@@ -1,14 +1,21 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
   var app = senna.dataAttributeHandler.getApp();
 
-  app.on('endNavigate', function(event) {
+  app.on('endNavigate', function (event) {
     initNavbar();
     fixHeroHeight();
+    wrapCarouselItems();
+    startLightbox();
     trackPageViews(event);
   });
 
   initNavbar();
   fixHeroHeight();
+  wrapCarouselItems();
+  startLightbox();
+
+  // randomWisdow();
+
 });
 
 // Keeps the primary navigation in close proximity to the user
@@ -56,4 +63,39 @@ function fixHeroHeight() {
   if (postHeader) {
     postHeader.style.height = document.documentElement.clientHeight + 'px';
   }
+}
+
+function wrap(toWrap, wrapper) {
+  wrapper = wrapper || document.createElement('div');
+  toWrap.parentNode.appendChild(wrapper);
+  return wrapper.appendChild(toWrap);
+};
+
+function wrapCarouselItems() {
+  var images = document.querySelectorAll(".carousel img");
+
+  images.forEach((img) => {
+    if (img.parentElement.tagName === 'a') return;
+
+    var aHref = document.createElement('a');
+    aHref.setAttribute('href', img.src);
+    wrap(img, aHref);
+
+    var div = document.createElement('div');
+    div.classList.add('carousel-item');
+    wrap(aHref, div);
+  });
+}
+
+
+function startLightbox() {
+  // var luminous = new LuminousGallery(document.querySelectorAll(".carousel a"), {arrowNavigation: true}, {});
+  var lightbox = new $(".carousel a").simpleLightbox({showCounter: false});
+  console.log('TEST')
+}
+
+
+function randomWisdow(){
+
+
 }

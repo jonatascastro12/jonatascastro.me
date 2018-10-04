@@ -51,7 +51,7 @@ const buildCompleted = () => {
   if (task === 'deploy') {
     ghpages.publish(config.destination, {
       branch: 'wedeploy',
-      repo: 'git@github.com:zenorocha/zenorocha.com.git'
+      repo: 'git@github.com/jonatascastro12/jonatascastro.me.git'
     }, (err) => {
       if (err) throw err;
       else buildDuration();
