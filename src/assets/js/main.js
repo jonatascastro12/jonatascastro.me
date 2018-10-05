@@ -102,11 +102,14 @@ function getRandomInt(min, max) {
 }
 
 function onClick() {
+  $('.loading').addClass('fadeIn');
   $.getJSON('/json/proverbs.json', function (res) {
+    $('.loading').removeClass('fadeIn');
+
     var chapter = getRandomInt(0, res.chapters.length - 1);
     var verse = getRandomInt(0, res.chapters[chapter].length - 1);
     $('.manifesto').html(res.chapters[chapter][verse]);
-    $('.ref').html('Proverbs ' + chapter + '.' + verse);
+    $('.ref').html('Proverbs ' + (chapter+1) + '.' + (verse+1));
     $('.manifesto').addClass('fadeIn');
 
   });

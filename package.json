@@ -10,12 +10,14 @@
   "dependencies": {
     "aws-sdk": "^2.328.0",
     "chalk": "^1.0.0",
+    "clean-css": "^4.2.1",
     "dotenv": "^6.0.0",
     "gh-pages": "^1.1.0",
     "handlebars": "^4.0.5",
     "load-metalsmith-plugins": "^0.1.1",
     "metalsmith": "^2.1.0",
     "metalsmith-assets": "^0.1.0",
+    "metalsmith-clean-css": "^6.0.0",
     "metalsmith-collections": "^0.7.0",
     "metalsmith-date-formatter": "^1.0.2",
     "metalsmith-date-in-filename": "^0.0.14",
@@ -28,6 +30,7 @@
     "metalsmith-permalinks": "^0.5.0",
     "metalsmith-serve": "^0.0.7",
     "metalsmith-slug": "^0.2.0",
+    "metalsmith-uglify": "^2.3.2",
     "metalsmith-watch": "^1.0.1",
     "pretty-hrtime": "^1.0.0",
     "randomstring": "^1.1.5"

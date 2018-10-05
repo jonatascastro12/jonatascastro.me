@@ -26,7 +26,10 @@ const s3 = new AWS.S3({
   secretAccessKey: process.env.AWSSecretAccessKey,
   signatureVersion: 'v4'
 });
-const cloudfront = new AWS.CloudFront();
+const cloudfront = new AWS.CloudFront({
+  accessKeyId: process.env.AWSAccessKeyId,
+  secretAccessKey: process.env.AWSSecretAccessKey,
+});
 
 // resolve full folder path
 const distFolderPath = path.join(__dirname, config.folderPath);
@@ -83,6 +86,7 @@ function walk(rootdir, callback, subdir) {
 
 function clearCacheCF(distributionId) {
   var cfObj = {
+
     DistributionId: distributionId,
     InvalidationBatch: {
       CallerReference: randomstring.generate(16),
@@ -108,4 +112,5 @@ walk(distFolderPath, (filepath, rootdir, subdir, filename) => {
 });
 
 // clear cache CloudFront
+console.log('Invalidating CF', deploymentVariables.deploy.distributionId);
 clearCacheCF(deploymentVariables.deploy.distributionId);

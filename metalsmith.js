@@ -1,15 +1,17 @@
 const start = process.hrtime();
-const task  = process.argv[2];
+const task = process.argv[2];
 
 /* Dependencies
    ========================================================================== */
 
-const config     = require('./config');
-const chalk      = require('chalk');
-const ghpages    = require('gh-pages');
-const plugins    = require('load-metalsmith-plugins')();
+const config = require('./config');
+const chalk = require('chalk');
+const ghpages = require('gh-pages');
+const plugins = require('load-metalsmith-plugins')();
 const prettytime = require('pretty-hrtime');
 const metalsmith = require('metalsmith')(__dirname);
+const cleanCSS = require('metalsmith-clean-css');
+const uglify = require('metalsmith-uglify');
 
 /* Pipeline
    ========================================================================== */
@@ -17,6 +19,13 @@ const metalsmith = require('metalsmith')(__dirname);
 metalsmith
   .source(config.source)
   .destination(config.destination)
+  .use(cleanCSS({
+    files: 'src/assets/css/*.css',
+    cleanCSS: {
+      rebase: true
+    }
+  }))
+  .use(uglify())
   .use(plugins.assets(config.assets))
   .use(plugins.filemetadata(config.filemetadata))
   .use(plugins.slug())

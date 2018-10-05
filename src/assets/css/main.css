@@ -78,14 +78,13 @@ code {
   border: 1px solid #EEE;
 }
 
-
 @media (max-width: 425px) {
   .resource-item {
     width: 46%;
   }
 }
 
-@media (max-width: 325px) {
+@media (max-width: 400px) {
   .resource-item {
     width: 100%;
   }
@@ -106,7 +105,6 @@ code {
   padding: 0;
   margin-top: 20px;
 }
-
 
 /* Navbar
    ========================================================================== */
@@ -388,6 +386,20 @@ svg.github {
   will-change: transform;
 }
 
+@media (max-width: 768px) {
+  .post-header .post-image {
+    background-position: left top;
+  }
+
+  .post-header .post-image.about-page {
+    background-position: center top;
+  }
+
+  .post-header .post-image.resume-page{
+    background-position: center top;
+  }
+}
+
 @media (max-width: 1024px) {
   .post-image {
     position: absolute;
@@ -532,7 +544,7 @@ svg.github {
 
 }
 
-.post-content .manifesto.fadeIn{
+.post-content .manifesto.fadeIn {
   animation-name: fadeIn;
   animation-duration: 3s;
 }
@@ -673,16 +685,16 @@ svg.github {
   text-decoration: none;
 }
 
-.sl-overlay{
+.sl-overlay {
   background: #000000 !important;
 }
 
-.sl-wrapper .sl-navigation button{
+.sl-wrapper .sl-navigation button {
   color: #FFFFFF !important;
 }
 
 /** WISDOM BTN*/
-.wisdom-btn{
+.wisdom-btn {
   cursor: pointer;
   background: #000000;
   color: #FFFFFF;
@@ -692,7 +704,15 @@ svg.github {
   font-family: 'Poppins Light', sans-serif;
 }
 
+.loading {
+  display: none;
+}
 
+.loading.fadeIn {
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  display: block;
+}
 
 /* Footer
    ========================================================================== */
