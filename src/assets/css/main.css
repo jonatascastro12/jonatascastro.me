@@ -74,7 +74,21 @@ code {
   padding: 10px 0;
   width: 30%;
   text-align: center;
+  margin: 10px 0;
   border: 1px solid #EEE;
+}
+
+
+@media (max-width: 425px) {
+  .resource-item {
+    width: 46%;
+  }
+}
+
+@media (max-width: 325px) {
+  .resource-item {
+    width: 100%;
+  }
 }
 
 .resource-img {
@@ -92,6 +106,7 @@ code {
   padding: 0;
   margin-top: 20px;
 }
+
 
 /* Navbar
    ========================================================================== */
@@ -389,8 +404,9 @@ svg.github {
   margin: 59px auto 0;
   position: relative;
   z-index: 3;
-  font-size: 60px;
-  line-height: 80px;
+  font-size: 45px;
+  line-height: 70px;
+  padding: 0 15px;
 }
 
 .post-content .post-title {
@@ -539,9 +555,9 @@ svg.github {
   }
 
   .post-title {
-    font-size: 72px;
-    line-height: 90px;
-    max-width: 60%;
+    font-size: 72px !important;
+    line-height: 90px !important;
+    max-width: 60% !important;
   }
 }
 

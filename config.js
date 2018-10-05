@@ -1,4 +1,8 @@
 module.exports = {
+  deploy: {
+    bucketName: "jonatascastro.me",
+    distributionId: 'E3FSFUX88C5RSH'
+  },
   source: 'src/content',
   destination: 'dist',
   assets: {

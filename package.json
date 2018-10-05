@@ -4,11 +4,13 @@
   "version": "4.0.0",
   "scripts": {
     "start": "node metalsmith build",
-    "deploy": "node metalsmith deploy",
+    "deploy": "node metalsmith build && node ./scripts/deploy.js",
     "watch": "node metalsmith watch"
   },
   "dependencies": {
+    "aws-sdk": "^2.328.0",
     "chalk": "^1.0.0",
+    "dotenv": "^6.0.0",
     "gh-pages": "^1.1.0",
     "handlebars": "^4.0.5",
     "load-metalsmith-plugins": "^0.1.1",
@@ -27,6 +29,7 @@
     "metalsmith-serve": "^0.0.7",
     "metalsmith-slug": "^0.2.0",
     "metalsmith-watch": "^1.0.1",
-    "pretty-hrtime": "^1.0.0"
+    "pretty-hrtime": "^1.0.0",
+    "randomstring": "^1.1.5"
   }
 }

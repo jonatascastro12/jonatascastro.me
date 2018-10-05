@@ -19,21 +19,5 @@ I believe God can speak to you right now!
 <span class="ref"></span>
 
 <script type="application/javascript">
-  function getRandomInt(min, max) {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
-  }
-
-  function onClick(){
-    $.getJSON('/json/proverbs.json', function(res){
-      var chapter = getRandomInt(0, res.chapters.length-1);
-      var verse = getRandomInt(0, res.chapters[chapter].length-1);
-      $('.manifesto').html(res.chapters[chapter][verse]);
-      $('.ref').html('Proverbs '+chapter+'.'+verse);
-      $('.manifesto').addClass('fadeIn');
-      
-    });
-  }
-  
-  $('#wisdom-btn').click(onClick);
   
 </script>
