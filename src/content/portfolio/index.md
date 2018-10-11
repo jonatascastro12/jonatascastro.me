@@ -9,7 +9,7 @@ These are my recent success cases.
 
 # 2018
 
-## BT PLAN
+## BTPlan
 
 <div class="carousel">
 ![](/images/portfolios/tela-btplan-1.jpg)
@@ -17,12 +17,12 @@ These are my recent success cases.
 ![](/images/portfolios/tela-btplan-3.jpg)
 ![](/images/portfolios/tela-btplan-4.jpg)
 </div>
-This project supports the planning and management of Brazilian territorial base.
+This project supports the planning and management of the Brazilian territorial base.
 
 **Main product features**
 * Mapping feature annotations on web app
 * Live planning and evaluation of territorial structures
-* Evaluation questionnaire filling with multiple user roles
+* Evaluation questionnaire including with multiple user roles
 * Useful monitoring dashboards
 
 **Main technologies**
@@ -33,12 +33,12 @@ This project supports the planning and management of Brazilian territorial base.
 * NGiNX/uwsgi/CentOS environment
 
 
-## Desktop Webapp
+## Desktop Web app
 
 <div class="carousel">
 ![](/images/portfolios/tela-vesti-desktop-1.jpg)
 </div>
-This is a responsive desktop version of a webapp for retailer and wholesale e-commerce. 
+This is a responsive desktop version of a web app for retailer and wholesale e-commerce. 
 
 **Main features**
 * Desktop-enhanced navigation
@@ -50,10 +50,10 @@ This is a responsive desktop version of a webapp for retailer and wholesale e-co
 * RESTful API integration
 * S3/cloudfront environment
 
-## Mobile Webapp Checkout
+## Mobile Web app Checkout
 
-This is a responsive mobile version of a webapp for e-commerce checkout. 
-Check: https://vesti.mobi
+This is a responsive mobile version of a web app for e-commerce checkout. 
+Visit: https://vesti.mobi
 
 **Main features**
 * Credit-card payment
@@ -66,14 +66,14 @@ Check: https://vesti.mobi
 * S3/Cloudfront environment
 
 # 2017
-## Mobile Webapp Atacado/Varejo
+## Mobile Web App Retailer/Wholesale
 <div class="carousel">
 ![](/images/portfolios/tela-vesti-mobile-atacado-1.jpg)
 ![](/images/portfolios/tela-vesti-mobile-atacado-2.jpg)
 ![](/images/portfolios/tela-vesti-mobile-atacado-3.jpg)
 </div>
-This is a responsive mobile version of a webapp for retailer and wholesale e-commerce.
-Check: https://vesti.mobi
+This is a responsive mobile version of a web app for retailer and wholesale e-commerce.
+Check it out here: https://vesti.mobi
 
 **Main features**
 * Mobile-enhanced navigation
@@ -92,7 +92,7 @@ Check: https://vesti.mobi
 ![](/images/portfolios/tela-resgata-2.jpg)
 </div>
 The project consists of integrating various digital marketing tools in a customer-oriented workflow for a startup campaign.
-Check: https://www.resgata.com.br
+Check it out at: https://www.resgata.com.br
 
 **Main features**
 * RESTful integration between tools through webhooks and Zapier
@@ -115,7 +115,7 @@ Check: https://www.resgata.com.br
 ![](/images/portfolios/tela-bdia-2.jpg)
 ![](/images/portfolios/tela-bdia-3.jpg)
 </div>
-BDIA is the Brazilian Environmental Information Database supported by IBGE. This project involves the development of 
+BDIA is a Brazilian Environmental Information Database supported by IBGE. This project involves the development of 
 the information system that supports BDIA. It includes four different themes: pedology, vegetation, geology and geomorphology.
 
 **Main features**
