@@ -75,7 +75,7 @@ function wrap(toWrap, wrapper) {
 function wrapCarouselItems() {
   var images = document.querySelectorAll(".carousel img");
 
-  images.forEach((img) => {
+  images.forEach(function(img){
     if (img.parentElement.tagName === 'a') return;
 
     var aHref = document.createElement('a');

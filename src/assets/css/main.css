@@ -329,7 +329,8 @@ a.logo {
 }
 
 svg.logo {
-  height: 50px;
+  height: 41px;
+  margin-top: -6px;
   margin-right: 10px;
 }
 
@@ -395,7 +396,7 @@ svg.github {
     background-position: center top;
   }
 
-  .post-header .post-image.resume-page{
+  .post-header .post-image.resume-page {
     background-position: center top;
   }
 }

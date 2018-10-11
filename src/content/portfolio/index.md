@@ -105,7 +105,7 @@ Check: https://www.resgata.com.br
 * Forms: Typeform
 * Email Marketing and Autoresponders: Autopilot and Mailchimp
 * Helpdesk: Zendesk
-* Development of integration scripts embedded within Zapier app
+* Development of Python scripts to integrate tools - script were landed on Zapier
 * Workflow planning documentation
 
 

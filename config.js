@@ -1,7 +1,39 @@
+const jsRe = new RegExp('.js$');
+
+
 module.exports = {
   deploy: {
     bucketName: "jonatascastro.me",
     distributionId: 'E3FSFUX88C5RSH'
+  },
+  cleanCss: {
+    files: 'css\\*.css',
+    cleanCSS: {
+      rebase: true
+    }
+  },
+  cssPacker: {
+    assetsSource: 'src\\assets',
+    outputPath: 'css/'
+  },
+  uglify: {
+    concat: {
+      file: 'bundle.min.js',
+      root: 'js'
+    },
+    removeOriginal: true,
+    windows: true,
+    root: 'src/assets/js',
+    files: [
+      'js\\jquery.js',
+      'js\\senna.min.js',
+      'js\\headroom.min.js',
+      'js\\simple-lightbox.min.js',
+      'js\\main.js'
+    ],
+    filter: function (name) {
+      return name.match(jsRe);
+    }
   },
   source: 'src/content',
   destination: 'dist',

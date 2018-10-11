@@ -10,22 +10,15 @@ const ghpages = require('gh-pages');
 const plugins = require('load-metalsmith-plugins')();
 const prettytime = require('pretty-hrtime');
 const metalsmith = require('metalsmith')(__dirname);
+const htmlMinifier = require('metalsmith-html-minifier');
+const cssPacker = require('metalsmith-css-packer');
 const cleanCSS = require('metalsmith-clean-css');
 const uglify = require('metalsmith-uglify');
 
-/* Pipeline
-   ========================================================================== */
 
 metalsmith
   .source(config.source)
   .destination(config.destination)
-  .use(cleanCSS({
-    files: 'src/assets/css/*.css',
-    cleanCSS: {
-      rebase: true
-    }
-  }))
-  .use(uglify())
   .use(plugins.assets(config.assets))
   .use(plugins.filemetadata(config.filemetadata))
   .use(plugins.slug())
@@ -36,7 +29,16 @@ metalsmith
   .use(plugins.markdown())
   .use(plugins.permalinks(config.permalinks))
   .use(plugins.layouts(config.layouts))
-  .use(plugins.inPlace(config.inPlace));
+  .use(plugins.inPlace(config.inPlace))
+  .use(htmlMinifier())
+  // .use(cleanCSS(config.cleanCss))
+  .use(cssPacker(config.cssPacker))
+  .use(uglify(config.uglify))
+  .clean(false)
+  ;
+
+/* Pipeline
+   ========================================================================== */
 
 if (task === 'watch') {
   metalsmith
@@ -48,12 +50,14 @@ if (task === 'watch') {
    ========================================================================== */
 
 metalsmith.build((err) => {
-  if (err) throw err;
-  else buildCompleted();
+  if (err) {
+    throw err;
+  } else {
+    buildCompleted()
+  }
 });
 
 const buildCompleted = () => {
-  console.log('TESTE');
   if (task === 'build') {
     buildDuration();
   }
