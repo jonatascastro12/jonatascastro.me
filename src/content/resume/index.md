@@ -59,7 +59,7 @@ Zapier, Facebook Ads, Google Ads, Google Analytics
 ## <img src="/images/ibge-logo.png" class="inline-image" />BRAZILIAN INSTITUTE OF GEOGRAPHY AND STATISTICS
 ### Software Engineering Supervisor <br><small>JUN, 2014 (+4 YEARS - Present)</small>
 
-* Led the BTPlan development for the Brazilian 2020 Census Project – a planning and evaluation system that supports the Brazilian geographic territorial base management using Python/Django/GeoDjango, Oraclegis, and Angular. This application is used by all Brazilian federal units (27 states) responsible for the geographic range limits of 5070 municipalities of Brazil. 
+* Led the BTPlan development for the Brazilian 2020 Census Project – a planning and evaluation system that supports the Brazilian geographic territorial base management using Python/Django/GeoDjango, Oraclegis, and Angular. This application is used by all the Brazilian federal units supervisors (27 states) that are responsible for the geographic range limits of 5070 municipalities of Brazil. 
 * Converted the Brazilian Environmental Information Database System from an old architecture (Oracle Forms) to a new architecture (RESTful API + web client) – using Node.js Loopback, Oracle and Angular
 * Managed the #Mapeiaí development project – a collaborative mapping application that supports the continuous cartographic bases using Python/Django, PostgreSQL, and Angular
 * Developed a full Access Control solution to support Geographic Information System authentication and authorization management 
@@ -79,10 +79,10 @@ Collaborated with a team to the develop a hybrid (web/native), second screen, an
 
 ##  <img src="/images/deloitte-logo.png" class="inline-image" /> DELOITTE
 ### Business Analyst (Technology Advisory) <br><small>JAN, 2013 TO AUG, 2013 (8 MONTHS)</small>
-Worked at Petrobras, the Major Brazilian Oil and Gas Company:
+Worked at Petrobras, the Major Brazilian Oil and Gas Company
 - Implemented business dashboards about daily oil production from E&P projects using QlikView, Oracle and JavaScript technologies
 - Managed Oracle databases using PL/SQL language (Oracle)
-- Created an automatic mechanism for ETL (Extraction, Transform, Load) for data marts
+- Created an automatic ETL (Extraction, Transform, Load) mechanism for different data sources (SAP databases and datasheets)
 - Supported economic analysis activities of the PRÉ-SAL project portfolio
 - Built automated validation workflows
 
