@@ -17,7 +17,7 @@ These are my recent success cases.
 ![](/images/portfolios/tela-btplan-3.jpg)
 ![](/images/portfolios/tela-btplan-4.jpg)
 </div>
-This project supports the planning and management of the Brazilian territorial base.
+This is a planning and evaluation system that supports the Brazilian geographic territorial base management using Python/Django/GeoDjango, Oraclegis, and Angular. This application is used by all the Brazilian federal units supervisors (27 states) that are responsible for the geographic range limits of 5070 municipalities of Brazil
 
 **Main product features**
 * Mapping feature annotations on web app

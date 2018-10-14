@@ -3,8 +3,8 @@ const jsRe = new RegExp('.js$');
 
 module.exports = {
   deploy: {
-    bucketName: "jonatascastro.me",
-    distributionId: 'E3FSFUX88C5RSH'
+    bucketName: process.env.AWSS3BucketName,
+    distributionId: process.env.AWSCloudfrontDistributionId
   },
   cleanCss: {
     files: 'css\\*.css',
