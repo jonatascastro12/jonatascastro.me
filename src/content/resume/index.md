@@ -6,11 +6,11 @@ page_class: resume-page
 image: /images/pc-screen.jpg
 ---
 
-This is my resume. Here you can find everything that I've already worked with in the IT job market.
+<a target="_blank" href="https://1drv.ms/w/s!AoodVMh-qw41yVt2nGagPwsrTh8Y">Download my CV.</a>
 
 # Summary
 
-Jônatas Castro is a Senior Software Engineer and Full Stack Developer. He has 8 years of experience with Web 
+Jônatas Castro is a Software Engineer and Full Stack Developer. He has 8 years of experience with Web 
 Development, Data Modeling, User Interface Design, Digital Marketing, and IT Consulting. He holds a Bachelor's Degree in 
 Computer Science from the Federal University of Juiz de Fora (UFJF). He is currently working on his Master's Degree in 
 Information Systems at the Federal University of the State of Rio de Janeiro (UNIRIO).
@@ -28,7 +28,7 @@ and SPA web apps. His DevOps experience includes cloud architecture and cloud se
 Amazon AWS, Digital Ocean…), caching tools (e.g. Redis, Memcached…), build tools, package managers (e.g. npm, PyPi…), 
 and automated testing and continuous integration.
 
-
+<!--
 # Recent startup freelancer experience
 
 ## <img src="/images/vesti-logo.png" class="inline-image" /> VESTI
@@ -84,24 +84,23 @@ Worked at Petrobras, the Major Brazilian Oil and Gas Company
 - Managed Oracle databases using PL/SQL language (Oracle)
 - Created an automatic ETL (Extraction, Transform, Load) mechanism for different data sources (SAP databases and datasheets)
 - Supported economic analysis activities of the PRÉ-SAL project portfolio
-- Built automated validation workflows
+- Built automated validation workflow
+
 
 ##  <img src="/images/emidia-logo.png" class="inline-image" /> GRUPO EMÍDIA
 ###	Web Developer <br><small>MAR, 2012 TO NOV, 2012 (9 MONTHS)</small>
-- Conducted the design and development of the management system of a preparatory school for civil service exams
-- Led the planning, project management, development and maintenance of Skoom: a social network of discounts and benefits
-- Developed websites and web systems using (X)HTML, CSS, JavaScript, jQuery, PHP and MySQL according to W3C standards.
-- Improved SEO (Search Engine Optimization) of dynamic websites
-- Built websites using the WordPress platform
-- Collaborated with UX design
-- Supported security enhancements and performance optimization to internet systems
+-	Conducted the design and development of the management system of a preparatory school for civil service exams
+-	Led the planning, project management, development and maintenance of Skoom: a social network of discounts and benefits
+-	Developed websites and web systems using (X)HTML, CSS, JavaScript, jQuery, PHP and MySQL according to W3C standards.
+-	Improved SEO (Search Engine Optimization) of dynamic websites
+-	Built websites using the WordPress platform
+-	Collaborated with UX design
+-	Supported security enhancements and performance optimization of internet systems
+
 
 ## <img src="/images/brasdev-logo.gif" class="inline-image" /> BRASDEV DEVELOPERS
 ### Web developer <br><small>JAN, 2010 TO DEC, 2010 (1 YEAR)</small>
-- Developed websites and web systems using (X)HTML, CSS, JavaScript, jQuery, PHP, Wordpress and MySQL according to W3C standards.
-  - an online flower shop
-  - a portal about elder care
-  - a hotsite for an english course
-  - institutional websites for hospital, university and trading companies
-- Created of graphic material for advertising campaigns
+- Developed websites and web systems using (X)HTML, CSS, JavaScript, jQuery, PHP, Wordpress and MySQL according to W3C standards for an online flower shop, a portal about elder care, a hotsite for an english course, institutional websites for hospital, university and trading companies
+- Created graphic material for advertising campaigns
 - Elaborated UX for websites
+-->

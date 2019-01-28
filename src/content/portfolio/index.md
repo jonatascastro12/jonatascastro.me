@@ -7,10 +7,9 @@ image: /images/venice.jpg
 
 These are my recent success cases.
 
+<a id="btplan"></a>
 # 2018
-
 ## BTPlan
-
 <div class="carousel">
 ![](/images/portfolios/tela-btplan-1.jpg)
 ![](/images/portfolios/tela-btplan-2.jpg)
@@ -33,8 +32,8 @@ This is a planning and evaluation system that supports the Brazilian geographic 
 * NGiNX/uwsgi/CentOS environment
 
 
+<a id="desktop-webapp"></a>
 ## Desktop Web app
-
 <div class="carousel">
 ![](/images/portfolios/tela-vesti-desktop-1.jpg)
 </div>
@@ -51,7 +50,7 @@ This is a responsive desktop version of a web app for retailer and wholesale e-c
 * S3/cloudfront environment
 
 ## Mobile Web app Checkout
-
+<a id="mobile-webapp-checkout">
 This is a responsive mobile version of a web app for e-commerce checkout. 
 Visit: https://vesti.mobi
 
@@ -66,6 +65,7 @@ Visit: https://vesti.mobi
 * S3/Cloudfront environment
 
 # 2017
+<a id="mobile-webapp"></a>
 ## Mobile Web App Retailer/Wholesale
 <div class="carousel">
 ![](/images/portfolios/tela-vesti-mobile-atacado-1.jpg)
@@ -86,6 +86,7 @@ Check it out here: https://vesti.mobi
 * RESTful API integration
 * S3/Cloudfront environment
 
+<a id="resgata"></a>
 ## Resgata Digital Marketing Campaign
 <div class="carousel">
 ![](/images/portfolios/tela-resgata-1.jpg)
@@ -108,7 +109,7 @@ Check it out at: https://www.resgata.com.br
 * Development of Python scripts to integrate tools - script were landed on Zapier
 * Workflow planning documentation
 
-
+<a id="bdia"></a>
 ## Portal BDIA
 <div class="carousel">
 ![](/images/portfolios/tela-bdia-1.jpg)
@@ -130,6 +131,7 @@ the information system that supports BDIA. It includes four different themes: pe
 * Windows/Apache environment
 
 # 2016
+<a id="mapeiai"></a>
 ## #Mapeiaí
 <div class="carousel">
 ![](/images/portfolios/tela-mapeiai-1.jpg)
