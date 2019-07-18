@@ -6,7 +6,7 @@ page_class: resume-page
 image: /images/pc-screen.jpg
 ---
 
-<a target="_blank" href="https://1drv.ms/w/s!AoodVMh-qw41yVt2nGagPwsrTh8Y">Download my CV.</a>
+<a target="_blank" href="https://1drv.ms/w/s!AoodVMh-qw41yVumo-oTIL8y6OIQ">Download my CV.</a>
 
 # Summary
 

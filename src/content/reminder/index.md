@@ -7,8 +7,8 @@ image: /images/desktop.jpg
 
 I believe that God has a plan for your life!
 
-This tool randomly takes Proverbs verse by applying a function to this exact millisecond! 
-I that believe God can speak to you right now!
+This tool randomly takes a Proverbs verse by applying a function to this exact millisecond! 
+I believe God can speak to you right now!
 
 <p style="text-align: center">
   <button type="button" id="wisdom-btn"  class="wisdom-btn">Speak To Me</button>

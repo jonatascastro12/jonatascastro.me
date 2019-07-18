@@ -555,8 +555,8 @@ svg.github {
     margin-top: 50px;
   }
 
-  /* 
-   * Math break: 
+  /*
+   * Math break:
    *   viewport width: 100vw
    *   .post-container width: 700px
    *   remainder: (100vw - 700px)
@@ -780,3 +780,27 @@ svg.github {
   font-style: normal;
 }
 
+@keyframes mouse-animation {
+  0%{
+    transform: translate(0,0);
+  }
+  50%{
+    transform: translate(0,10px);
+  }
+
+  100%{
+    transform: translate(0,0);
+  }
+
+}
+
+.mouse-down-icon{
+  position: absolute;
+  bottom: 40px;
+  animation: mouse-animation 1s ease infinite;
+}
+
+.mouse-down-icon img{
+  width: 40px;
+  height: 40px;
+}
