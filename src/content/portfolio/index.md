@@ -5,32 +5,7 @@ tagline: Your success is my success!
 image: /images/venice.jpg
 ---
 
-These are my recent success cases.
-
-<a id="btplan"></a>
-# 2018
-## BTPlan
-<div class="carousel">
-![](/images/portfolios/tela-btplan-1.jpg)
-![](/images/portfolios/tela-btplan-2.jpg)
-![](/images/portfolios/tela-btplan-3.jpg)
-![](/images/portfolios/tela-btplan-4.jpg)
-</div>
-This is a planning and evaluation system that supports the Brazilian geographic territorial base management using Python/Django/GeoDjango, Oraclegis, and Angular. This application is used by all the Brazilian federal units supervisors (27 states) that are responsible for the geographic range limits of 5070 municipalities of Brazil
-
-**Main product features**
-* Mapping feature annotations on web app
-* Live planning and evaluation of territorial structures
-* Evaluation questionnaire including with multiple user roles
-* Useful monitoring dashboards
-
-**Main technologies**
-* Typescript/Angular 6+
-* LeafletJS
-* Python/Django
-* Oracle Spatial 12C
-* NGiNX/uwsgi/CentOS environment
-
+These are some of the projects that I developed. All portfolio was properly authorized by clients to be shown.  
 
 <a id="desktop-webapp"></a>
 ## Desktop Web app
@@ -64,7 +39,6 @@ Visit: https://vesti.mobi
 * RESTful API integration
 * S3/Cloudfront environment
 
-# 2017
 <a id="mobile-webapp"></a>
 ## Mobile Web App Retailer/Wholesale
 <div class="carousel">
@@ -108,46 +82,3 @@ Check it out at: https://www.resgata.com.br
 * Helpdesk: Zendesk
 * Development of Python scripts to integrate tools - script were landed on Zapier
 * Workflow planning documentation
-
-<a id="bdia"></a>
-## Portal BDIA
-<div class="carousel">
-![](/images/portfolios/tela-bdia-1.jpg)
-![](/images/portfolios/tela-bdia-2.jpg)
-![](/images/portfolios/tela-bdia-3.jpg)
-</div>
-BDIA is a Brazilian Environmental Information Database supported by IBGE. This project involves the development of 
-the information system that supports BDIA. It includes four different themes: pedology, vegetation, geology and geomorphology.
-
-**Main features**
-* Migration of an old architecture (Oracle Forms) to a new REST-oriented one.
-* Full CRUD of all entities
-* Rich UX interfaces with dashboards, tables pagination, filtering and searching
-
-**Main technologies**
-* Angular 4+
-* Node.js/Loopback 3
-* Oracle 12c
-* Windows/Apache environment
-
-# 2016
-<a id="mapeiai"></a>
-## #Mapeiaí
-<div class="carousel">
-![](/images/portfolios/tela-mapeiai-1.jpg)
-![](/images/portfolios/tela-mapeiai-2.jpg)
-![](/images/portfolios/tela-mapeiai-3.jpg)
-![](/images/portfolios/tela-mapeiai-4.jpg)
-</div>
-This is a mapping collaborative tool that supports the management of continuous cartographic databases.
-
-**Main features**
-* Rich UX interface with mapping annotation tools
-* Collaborative management of evaluations
-* Comments and upload of documents
-
-**Main technologies**
-* AngularJS
-* Python/Django/GeoDjango
-* Postgres/Postgis
-* Windows/Apache environment
