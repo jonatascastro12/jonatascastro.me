@@ -7,13 +7,13 @@ module.exports = {
     distributionId: process.env.AWSCloudfrontDistributionId
   },
   cleanCss: {
-    files: 'css\\*.css',
+    files: 'css/*.css',
     cleanCSS: {
       rebase: true
     }
   },
   cssPacker: {
-    assetsSource: 'src\\assets',
+    assetsSource: 'src/assets',
     outputPath: 'css/'
   },
   uglify: {
@@ -22,14 +22,13 @@ module.exports = {
       root: 'js'
     },
     removeOriginal: true,
-    windows: true,
     root: 'src/assets/js',
     files: [
-      'js\\jquery.js',
-      'js\\senna.min.js',
-      'js\\headroom.min.js',
-      'js\\simple-lightbox.min.js',
-      'js\\main.js'
+      'js/jquery.js',
+      'js/senna.min.js',
+      'js/headroom.min.js',
+      'js/simple-lightbox.min.js',
+      'js/main.js'
     ],
     filter: function (name) {
       return name.match(jsRe);

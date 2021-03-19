@@ -14,7 +14,7 @@ I am servant of Christ, software developer and musician.
 I'm from Brazil and I live in Rio de Janeiro.
 I speak English and Portuguese.
 
-If you feel that my skills and services could be of use 
+If you feel that my skills and services could be useful 
 to your company or if you want to hire me, please, contact me at:
 
 jonatascastro12@gmail.com

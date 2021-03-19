@@ -6,22 +6,21 @@ page_class: resume-page
 image: /images/pc-screen.jpg
 ---
 
-<a target="_blank" href="https://1drv.ms/w/s!AoodVMh-qw41yVumo-oTIL8y6OIQ">Download my CV.</a>
+<a target="_blank" href="https://1drv.ms/w/s!AoodVMh-qw41yVumo-oTIL8y6OIQ">Download my resume.</a>
 
 # Summary
 
-Jônatas Castro is a Software Engineer and Full Stack Developer. He has 8 years of experience with Web 
-Development, Data Modeling, User Interface Design, Digital Marketing, and IT Consulting. He holds a Bachelor's Degree in 
-Computer Science from the Federal University of Juiz de Fora (UFJF). He is currently working on his Master's Degree in 
-Information Systems at the Federal University of the State of Rio de Janeiro (UNIRIO).
+Jônatas Castro is a Software Engineer and Full Stack Developer. He has <span id="xp-years"></span> years of experience with Web 
+Development, Software Archtecture, User Interface Design, and Digital Marketing. He holds a Bachelor's Degree in 
+Computer Science from the Federal University of Juiz de Fora (UFJF) and a Master's Deegree in System Information from the
+Federal University of the State of Rio de Janeiro (UNIRIO) since 2020.
 
-He has previously worked at Petrobras (the major Oil & Gas Company in Brazil) and Rede Globo (the major television 
-network in Brazil). 
-He is currently a Senior Software Developer at the Brazilian Institute of Statistics and Geography (IBGE). 
-Alongside his full-time job, he works as a freelancer in Digital Marketing and E-Commerce.
+He has previously worked at Petrobras (the major Oil & Gas Company in Brazil), Rede Globo (the major television 
+network in Brazil), the Brazilian Institute of Geography Statics (IBGE), and Truelogic Software. He is currently
+working at Zapier as a Software Engineer.
 
-Jônatas possesses a multi-disciplinary skill set including expert knowledge in Python, Django, PHP, Node.js, WordPress, 
-HTML5, CSS3, Angular, ECMAScript 6 (JavaScript), Typescript, MySQL, PostgreSQL, and Oracle. 
+Jônatas possesses a multi-disciplinary skill set including expert knowledge in Python, Django, Node.js, PHP, WordPress, 
+HTML5, CSS3, Angular, ECMAScript 6 (JavaScript), Typescript, MyQLS, PostgreSQL, and Oracle. 
 
 In addition to this, he also has experience with Design Patterns, and other development concepts like MVC, RESTful APIs, ORMs, 
 and SPA web apps. His DevOps experience includes cloud architecture and cloud services (e.g. Google Cloud Platform, 

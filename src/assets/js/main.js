@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
     startLightbox();
     wisdomEvent();
     trackPageViews(event);
+    xpYears();
   });
 
   initNavbar();
@@ -15,6 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
   wrapCarouselItems();
   startLightbox();
   wisdomEvent();
+  xpYears();
   // randomWisdow();
 
 });
@@ -95,8 +97,6 @@ function startLightbox() {
   console.log('TEST')
 }
 
-
-
 function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
@@ -117,5 +117,10 @@ function onClick() {
 
 function wisdomEvent() {
   $('#wisdom-btn').click(onClick);
+}
 
+
+function xpYears(){
+  let years = (new Date().getFullYear() - 2010).toString();;
+  $('#xp-years').html(years);
 }
