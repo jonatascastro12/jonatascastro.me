@@ -22,14 +22,10 @@ const config = {
 
 // initialise S3 client
 const s3 = new AWS.S3({
-  accessKeyId: process.env.AWSAccessKeyId,
-  secretAccessKey: process.env.AWSSecretAccessKey,
+  region: 'us-west-2',
   signatureVersion: 'v4'
 });
-const cloudfront = new AWS.CloudFront({
-  accessKeyId: process.env.AWSAccessKeyId,
-  secretAccessKey: process.env.AWSSecretAccessKey,
-});
+const cloudfront = new AWS.CloudFront();
 
 // resolve full folder path
 const distFolderPath = path.join(__dirname, config.folderPath);
@@ -66,8 +62,8 @@ function walk(rootdir, callback, subdir) {
         // build S3 PUT object request
         const s3Obj = {
           // set appropriate S3 Bucket path
-          Bucket: isSubdir ? `${config.s3BucketName}/${subdir}` : config.s3BucketName,
-          Key: filename,
+          Bucket: config.s3BucketName,
+          Key: isSubdir ? `${subdir}/${filename}` : filename,
           Body: fileContent,
           ContentType: mimeType
         }

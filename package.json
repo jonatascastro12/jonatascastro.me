@@ -35,6 +35,7 @@
     "metalsmith-uglify": "^2.3.4",
     "metalsmith-watch": "^1.0.1",
     "pretty-hrtime": "^1.0.0",
-    "randomstring": "^1.1.5"
+    "randomstring": "^1.1.5",
+    "yargs": "^16.2.0"
   }
 }
